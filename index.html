@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-
 <header>
   <nav class="navbar">
-    <div class="hamburger" onclick="toggleMenu()">
+    <div class="hamburger" onclick="toggleMenu(event)">
       <span></span>
       <span></span>
       <span></span>
@@ -56,45 +55,47 @@
 
 <section id="projects">
     <h2>Projects</h2>
-    <div class="project-card">
-        <h3 class="pro_title">School Management System - Django REST Framework API (Backend Project)</h3>
-        <a href="https://github.com/Sathishkumar2k05/Django-Rest-API-System.git" class="pro_git">GitHub</a>
-        <br>
-        <hr>
-        <br>
-        <p><ul>
-            <li>Developed and deployed high-performance REST APIs using Django REST Framework, improving scalability and reliability.</li>
-            <li>Integrated JWT-based authentication and role-based access control, increasing system security and reliability.</li>
-            <li>Utilized Postman for API testing and optimized models using Django ORM.</li>
-            <li>Improved API speed using select related and prefetch related, reducing query count by 30%.</li>
-        </ul></p>
-    </div>
+    <div class="projects_container">
+        <div class="project-card">
+            <h3 class="pro_title">School Management System - Django REST Framework API (Backend Project)</h3>
+            <a href="https://github.com/Sathishkumar2k05/Django-Rest-API-System.git" class="pro_git">GitHub</a>
+            <br>
+            <hr>
+            <br>
+            <p><ul>
+                <li>Developed and deployed high-performance REST APIs using Django REST Framework, improving scalability and reliability.</li>
+                <li>Integrated JWT-based authentication and role-based access control, increasing system security and reliability.</li>
+                <li>Utilized Postman for API testing and optimized models using Django ORM.</li>
+                <li>Improved API speed using select related and prefetch related, reducing query count by 30%.</li>
+            </ul></p>
+        </div>
 
-    <div class="project-card">
-        <h3 class="pro_title">Billing Management System - Django (Full-Stack Project)</h3>
-        <a href="https://github.com/Sathishkumar2k05/Billing-System" class="pro_git">GitHub</a>
-        <br>
-        <hr>
-        <br>
-        <p><ul>
-            <li>Built a full-stack billing and inventory system using Django, Python and MySQL.</li>
-            <li>Implemented secure authentication, authorization, and CRUD features, improving user management efficiency by 30%.</li>
-            <li>Optimized database queries, reducing response time by 25% and improving reporting performance.</li>
-            <li>Configured Django templates, URL routing and form handling for seamless navigation and user experience, Implemented front-end design enhancements to improve user experience.</li>
-        </ul></p>
-    </div>
-    <div class="project-card">
-        <h3 class="pro_title">To-Do Application - Django (Full-Stack Project)</h3>
-        <a href="https://github.com/Sathishkumar2k05/todo-list-app-django-python-sql-html-css-js.git" class="pro_git">GitHub</a>
-        <br>
-        <hr>
-        <br>
-        <p><ul>
-            <li>Developed a full-stack task management application using Django with a clean and modular architecture.</li>
-            <li>Implemented CRUD operations with Class-Based Views (CBVs) for reusable and scalable code.</li>
-            <li>Designed a responsive UI and added dark-mode using JavaScript and CSS for enhanced user experience.</li>
-            <li>Integrated MySQL for structured data storage and smooth data retrieval, showcasing effective object relational mapping and database interaction.</li>
-        </ul></p>
+        <div class="project-card">
+            <h3 class="pro_title">Billing Management System - Django (Full-Stack Project)</h3>
+            <a href="https://github.com/Sathishkumar2k05/Billing-System" class="pro_git">GitHub</a>
+            <br>
+            <hr>
+            <br>
+            <p><ul>
+                <li>Built a full-stack billing and inventory system using Django, Python and MySQL.</li>
+                <li>Implemented secure authentication, authorization, and CRUD features, improving user management efficiency by 30%.</li>
+                <li>Optimized database queries, reducing response time by 25% and improving reporting performance.</li>
+                <li>Configured Django templates, URL routing and form handling for seamless navigation and user experience, Implemented front-end design enhancements to improve user experience.</li>
+            </ul></p>
+        </div>
+        <div class="project-card">
+            <h3 class="pro_title">To-Do Application - Django (Full-Stack Project)</h3>
+            <a href="https://github.com/Sathishkumar2k05/todo-list-app-django-python-sql-html-css-js.git" class="pro_git">GitHub</a>
+            <br>
+            <hr>
+            <br>
+            <p><ul>
+                <li>Developed a full-stack task management application using Django with a clean and modular architecture.</li>
+                <li>Implemented CRUD operations with Class-Based Views (CBVs) for reusable and scalable code.</li>
+                <li>Designed a responsive UI and added dark-mode using JavaScript and CSS for enhanced user experience.</li>
+                <li>Integrated MySQL for structured data storage and smooth data retrieval, showcasing effective object relational mapping and database interaction.</li>
+            </ul></p>
+        </div>
     </div>
 </section>
 

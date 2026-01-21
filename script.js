@@ -29,7 +29,8 @@ document.querySelectorAll('nav a[href^="#"]').forEach(link => {
 const navLinks = document.getElementById("navLinks");
 const navItems = document.querySelectorAll(".nav-item");
 
-function toggleMenu() {
+function toggleMenu(event) {
+  event.stopPropagation();
   navLinks.classList.toggle("active");
 }
 
@@ -38,3 +39,14 @@ navItems.forEach(item => {
     navLinks.classList.remove("active");
   });
 });
+
+document.addEventListener("click", (e) => {
+  if (
+    !e.target.closest(".hamburger") &&
+    !e.target.closest("#navLinks")
+  ) {
+    navLinks.classList.remove("active");
+  }
+});
+
+
