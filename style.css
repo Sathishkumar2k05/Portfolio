@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #f5f7fa;
-    color: #333;
+    background: linear-gradient(100deg, #beb7ff, #ffb2b2);
+    color: black;
 }
 
 header{
@@ -233,8 +233,8 @@ section h2 {
 }
 
 .project-card:hover{
-  box-shadow: 2px 12px 25px rgba(0,0,0,0.2);
-  background-color: rgb(233, 233, 233);
+  box-shadow: 2px 12px 25px rgba(0, 0, 0, 0.2);
+  background-color: rgb(194, 194, 194);
 }
 
 .social {
